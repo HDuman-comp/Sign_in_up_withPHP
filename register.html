@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body{
+					background-image: url("bg.jpg");
+					background-size: cover;
+				}
+					</style>
+		<meta charset="utf-8">
+		<title>Register</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+	<body>
+		<div class="register" style="opacity: 0.7;">
+			<h1 style="color:rgb(36, 188, 235)">Register</h1>
+			<form action="register.php" method="post" autocomplete="off">
+				<label for="username" style="background-color: rgb(36, 188, 235);">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Username" id="username" required>
+				<label for="password" style="background-color: rgb(36, 188, 235);">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Password" id="password" required>
+				<label for="email" style="background-color: rgb(36, 188, 235);">
+					<i class="fas fa-envelope"></i>
+				</label>
+				<input type="email" name="email" placeholder="Email" id="email" required>
+
+	             <label for="phone" style="background-color: rgb(36, 188, 235);">
+					<i class="fas fa-phone"></i>
+				</label>
+				<input type="tel" name="phone" placeholder="Phone" id="phone" required>
+	      
+				<input type="submit" value="Register" style="background-color: rgb(36, 188, 235);">
+
+			</form>
+			<h4 style="text-align: center"> Already have an account ?</h4>
+			<div  style="text-align: center"><a href="index.html" style="text-align: center;"><a href="index.html" style="color: rgb(36, 188, 235);  font-size: 20px; font-weight: bold;">Login here <a> </div>
+		</div>
+	</body>
+</html>
